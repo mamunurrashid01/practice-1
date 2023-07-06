@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------header area start-----------------*/
+.menu-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(51, 41, 41);
+    padding: 25px 0;
+    color: white;
+    list-style: none;
+}
+.logo-png{
+    width: 100px;
+}
+.menus{
+    display: flex;
+}
+.list-item{
+    margin-right: 15px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.list-item:hover{
+    color: rgb(12, 206, 180);
+    background-color: gainsboro;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*------header area start-----------------*/
+
+/* ------main area start----------------- */
+.bannar-header{
+    font-size: 45px;
+    font-weight: 600;
+    color: aliceblue;
+    line-height: 42px;
+}
+.bannar-title{
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 10px 0 15px 0;
+}
+.btn {
+    background-color: #d02a2a;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 1px;
+    color: aliceblue;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn, a{
+    text-decoration: none;
+    color: #ebdddd;
+}
+.bannar-img{
+    width: 300px;
+}
+.bannar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    background-image: url("../img/background.png"), linear-gradient(30deg, rgb(2, 2, 2), #333030);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ------main area end----------------- */
+
+/* ------about section start----------------- */
+.about-image{
+    width: 250px;
+}
+.about{
+    text-align: center;
+    margin-top:0;
+    font-weight: 600;
+    background-image: linear-gradient(rgb(56, 51, 51), rgb(15, 80, 92), rgb(33, 34, 33));
+    padding: 20px 0;
+    color: #ffffff;
+    font-size: 30px;
+}
+.head{
+    line-height: 26px;
+    font-weight: 600;
+    color: aliceblue;
+    font-size:30px;
+}
+.main{
+    background-image: url("../img/bg1.jpg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 400px;
+}
+.about-description1{
+    margin-top: 8px;
+    color: aliceblue;
+    font-weight: 600;
+}
+.about-description2{
+    margin-bottom: 15px;
+    color: aliceblue;
+    font-weight: 600;
+}
+/* ------about section start----------------- */
+
+/* ------service section start----------------- */
+.cart-area{
+    background-image: radial-gradient(white, gray, black);
+}
+.service-aa{
+    text-align: center;
+    color: aliceblue;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 25px;
+}
+.block-cart{
+    width: 200px;
+    height: 250px;
+    box-shadow: 4px 4px 20px rgb(43, 17, 17);
+    background-image: conic-gradient(rgb(78, 60, 60), rgb(121, 121, 68), rgb(49, 124, 49));
+    color: aliceblue;
+    text-align: center;
+    padding:15px;
+}
+.service-image{
+    width: 100px;
+}
+.service{
+    margin: 8px 0 15px 0;
+}
+.btn-service{
+    background-color: #ebdddd;
+    padding: 8px 15px;
+    border: none;
+    color: #0e0d0d;
+    border-radius: 2px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+/* ------service section start----------------- */
+
+/* ------footer section start----------------- */
+.footer-fint{
+    background-image: url("../img/background.png"), linear-gradient(270deg, rgba(8, 8, 8, 0.925), rgb(7, 7, 7), rgb(13, 14, 13));
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+.information{
+    width: 200px;
+    height: 250px;
+}
+.footer-heading {
+    text-align: center;
+    margin-bottom: 12px;
+}
+.per-title{
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    text-align: justify;
+}
+/* ------footer section start-----------------*/
